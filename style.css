@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 18px;
     margin: 0;
     display: flex;
     height: 100vh;
@@ -17,7 +18,7 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #chat-list {
@@ -70,7 +71,7 @@ body {
     flex: 1;
     height: 4cm;
     resize: none;
-    font-size: 14px;
+    font-size: 18px;
     padding: 5px;
     box-sizing: border-box;
 }
@@ -78,8 +79,8 @@ body {
 .icon-button {
     background: none;
     border: none;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 28px;
+    padding: 10px;
     cursor: pointer;
 }
 
