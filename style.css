@@ -15,7 +15,7 @@ body {
 }
 
 #new-chat {
-    width: 100%;
+    width: 3cm;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 18px;
@@ -53,11 +53,15 @@ body {
 .message.user {
     background-color: #dcf8c6;
     align-self: flex-end;
+    margin-left: auto;
+    text-align: right;
 }
 
 .message.bot {
     background-color: #f1f0f0;
     align-self: flex-start;
+    margin-right: auto;
+    text-align: left;
 }
 
 .input-area {
@@ -82,6 +86,7 @@ body {
     font-size: 28px;
     padding: 10px;
     cursor: pointer;
+    width: 3cm;
 }
 
 #add-image {
@@ -89,5 +94,9 @@ body {
 }
 
 #send {
+    margin-left: 5px;
+}
+
+#mic {
     margin-left: 5px;
 }

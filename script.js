@@ -2,6 +2,7 @@ const messagesDiv = document.getElementById('messages');
 const input = document.getElementById('message-input');
 const sendBtn = document.getElementById('send');
 const addImageBtn = document.getElementById('add-image');
+const micBtn = document.getElementById('mic');
 
 // hidden file input for images
 const imageInput = document.createElement('input');
@@ -41,6 +42,10 @@ input.addEventListener('keydown', (e) => {
 });
 
 addImageBtn.addEventListener('click', () => imageInput.click());
+
+micBtn.addEventListener('click', () => {
+    addMessage('Mikrofon gestartet...', 'user');
+});
 
 imageInput.addEventListener('change', () => {
     const file = imageInput.files[0];
