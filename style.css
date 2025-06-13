@@ -15,7 +15,7 @@ body {
 }
 
 #new-chat {
-    width: 3cm;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 18px;
@@ -94,5 +94,9 @@ body {
 }
 
 #send {
+    margin-left: 5px;
+}
+
+#mic {
     margin-left: 5px;
 }
