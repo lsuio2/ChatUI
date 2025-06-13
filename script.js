@@ -52,7 +52,9 @@ imageInput.addEventListener('change', () => {
     if (file) {
         const img = document.createElement('img');
         img.src = URL.createObjectURL(file);
-        img.style.maxWidth = '100%';
+        img.style.width = '8cm';
+        img.style.height = '8cm';
+        img.style.objectFit = 'contain';
         addMessage(img, 'user');
     }
     imageInput.value = '';
