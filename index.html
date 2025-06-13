@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <button id="new-chat">Neues Gespräch starten</button>
+        <ul id="chat-list">
+            <li>Chat 1</li>
+            <li>Chat 2</li>
+            <li>Chat 3</li>
+        </ul>
+    </div>
+    <div class="chat-container">
+        <div id="messages" class="messages"></div>
+        <div class="input-area">
+            <button id="add-image" class="icon-button">+</button>
+            <textarea id="message-input" rows="4" placeholder="Nachricht eingeben..."></textarea>
+            <button id="send" class="icon-button">&#10148;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
